@@ -170,5 +170,5 @@ final.model=randomForest(factor(left)~., data=train_data , do.trace = T, mtry = 
 final.predict=predict(rf.tree,newdata = test_data,type='prob')[,2]
 
 ## writing the results into csv files ----------------------------------------------------------------------------------------------------------
-write.csv(final.predict,"Ajay_Yadav_P4_part2.csv",row.names = F)
+write.csv(final.predict,"NITESH_BHOSLE_P4_part2.csv",row.names = F)
 
