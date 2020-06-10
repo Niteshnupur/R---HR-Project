@@ -1,9 +1,3 @@
-# get the working directory --------------------------------------------------------------------------------------------------------------------
-getwd()
-
-## set the working directory where to work and your data exists
-setwd("C:\\Users\\HP 1\\Desktop\\data -projects\\")
-
 ## Data loading phase ---------------------------------------------------------------------------------------------------------------------------
 ## load the train and test data
 train_data = read.csv("hr_train.csv", stringsAsFactors = F)
